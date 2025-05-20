@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "language": {
+    "python": {
+      "formatter": "black",
+      "linter": "flake8",
+      "type_checker": "mypy"
+    },
+    "typescript": {
+      "formatter": "prettier",
+      "linter": "eslint"
+    },
+    "vue": {
+      "formatter": "prettier",
+      "linter": "eslint"
+    }
+  },
+  "editor": {
+    "formatOnSave": true,
+    "tabSize": 2,
+    "insertSpaces": true,
+    "trimTrailingWhitespace": true,
+    "insertFinalNewline": true
+  },
+  "search": {
+    "exclude": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/__pycache__/**",
+      "**/.git/**",
+      "**/venv/**"
+    ]
+  },
+  "terminal": {
+    "shell": {
+      "windows": "powershell.exe",
+      "linux": "bash",
+      "osx": "zsh"
+    }
+  }
+} 
